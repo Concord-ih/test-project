@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: blue;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 50px;
+        }
+        #descriptor {
+            color: chocolate;
+            text-align: center;
+            font-weight: bold;
+            font-size: 35px;
+        }
+        ol {
+            margin-left: 170px;
+        }
+        ol > li {
+            font-size: 25px;
+            color: coral;
+        }
+        a {
+            text-decoration: none;
+            margin-left: 180px;
+            font-size: 22px;
+            color: black;
+            background-color: darkgray;
+            padding: 5px;
+        }
+        table {
+            width: 500px;
+            height: 200px;
+            margin: 40px;
+            margin-left: 25%;
+        }
+        thead {
+            background-color: cadetblue;
+        }
+        tbody {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, world!</h1><hr>
+    <h3 id="descriptor">Today we gonna do some cool HTML stuffs</h3>
+    <ol>
+        <li>Header</li>
+        <li>Ordered list</li>
+        <li>Unordered list</li>
+        <li>Links</li>
+        <li>Table</li>
+        <li>Forms</li>
+    </ol>
+    <a href="https://google.com">Click here to go to Google</a>
+    <table border="1">
+        <tr>
+            <thead>
+                <th>S/N</th>
+                <th>Name</th>
+                <th>Reg. No.</th>
+                <th>Level</th>
+            </thead>
+        </tr>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Azeez Olanrewaju</td>
+                <td>UI/21/STA/1352</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Ibrahim Surajo</td>
+                <td>UI/21/STA/1373</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Yahaya Rukayya</td>
+                <td>UI/21/STA/1414</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>004</td>
+                <td>Sikiru Salmanu</td>
+                <td>UI/21/STA/1883</td>
+                <td>300</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="#">
+        <div>
+            <input type="text" placeholder="Fullname">
+            <input type="password" placeholder="Enter password">
+        </div>
+        <textarea name="" id="" cols="30" rows="10">Type a description of yourself</textarea>
+        <div>
+            Gender:
+            <input type="radio" name="gender" id=""> M
+            <input type="radio" name="gender" id=""> F
+        </div>
+        <div>
+            Hobby:
+            <input type="checkbox" name="hobby" id=""> Football
+            <input type="checkbox" name="hobby" id=""> Cricket
+            <input type="checkbox" name="hobby" id=""> Boxing
+            <input type="checkbox" name="hobby" id=""> Wrestling
+        </div>
+        <div>
+            <input name="department" list="department" placeholder="department">
+            <datalist id="department">
+                <option value="Agricultural Science"></option>
+                <option value="Biochemistry">
+                <option value="Fishery and Aquaculture">
+                <option value="Mathematics">
+                <option value="Medicine and surgery">
+                <option value="Microbiology">
+                <option value="Statistics">
+            </datalist>
+        </div>
+            <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
