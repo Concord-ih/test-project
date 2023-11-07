@@ -1,1 +1,39 @@
-
+ h1 {
+            color: blue;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 50px;
+        }
+        #descriptor {
+            color: chocolate;
+            text-align: center;
+            font-weight: bold;
+            font-size: 35px;
+        }
+        ol {
+            margin-left: 170px;
+        }
+        ol > li {
+            font-size: 25px;
+            color: coral;
+        }
+        a {
+            text-decoration: none;
+            margin-left: 180px;
+            font-size: 22px;
+            color: black;
+            background-color: darkgray;
+            padding: 5px;
+        }
+        table {
+            width: 500px;
+            height: 200px;
+            margin: 40px;
+            margin-left: 25%;
+        }
+        thead {
+            background-color: cadetblue;
+        }
+        tbody {
+            background-color: aquamarine;
+        }
